@@ -1,0 +1,32 @@
+#include "class_name.h"
+
+class_name::class_name(){
+
+}
+
+class_name::~class_name(){
+
+}
+
+
+class_name::class_name(const class_name& other){
+
+}
+
+class_name& class_name::operator=(const class_name& other){
+
+}
+
+class_name::class_name(const class_name&& other){
+
+}
+
+class_name& class_name::operator=(const class_name&& other){
+
+}
+
+std::ostream& operator<<(std::ostream& os, const class_name& obj)
+{
+    os << "class_name object";
+    return os;
+}

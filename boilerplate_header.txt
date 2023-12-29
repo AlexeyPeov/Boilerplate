@@ -1,0 +1,28 @@
+#ifndef CLASS_NAME_H
+#define CLASS_NAME_H
+
+#include <iostream>
+
+class class_name{
+public:
+   // class_name constructor and destructor
+   class_name();
+   ~class_name();
+
+   // copy constructors
+   class_name(const class_name& other);
+   class_name& operator=(const class_name& other);
+
+   // move constructors
+   class_name(const class_name&& other);
+   class_name& operator=(const class_name&& other);
+
+   // print overload
+   friend std::ostream& operator<<(std::ostream& os, const class_name& obj);
+
+private:
+
+
+
+};
+#endif
